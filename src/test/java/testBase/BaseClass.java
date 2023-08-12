@@ -31,8 +31,11 @@ public class BaseClass {
 		logger = LogManager.getLogger(this.getClass());
 		
 		if(br.equals("chrome")) {
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\okeog\\OneDrive\\Documents\\Nero Eclipse\\PricepallyProject\\drivers\\chromedriver.exe");
 			ops = new ChromeOptions();
 			ops.addArguments("--remote-allow-origins=*");
+			
+			ops.setBinary("C:\\Users\\okeog\\Downloads\\chrome-win64\\chrome-win64\\chrome.exe");
 			driver = new ChromeDriver(ops);
 		}
 		else {

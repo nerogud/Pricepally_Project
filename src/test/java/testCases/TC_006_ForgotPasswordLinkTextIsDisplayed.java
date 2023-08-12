@@ -8,12 +8,12 @@ import pageObjects.LoginPage;
 import pageObjects.WelcomePage;
 import testBase.BaseClass;
 
-public class TC_006_ForgetPasswordLinkTextIsDisplayed extends BaseClass{
+public class TC_006_ForgotPasswordLinkTextIsDisplayed extends BaseClass{
 	
 	@Test
-	public void ForgetPasswordLinkTextIsDisplayed() throws InterruptedException {
+	public void ForgotPasswordLinkTextIsDisplayed() throws InterruptedException {
 		
-		logger.info("***Starting ForgetPasswordLinkTextIsDisplayed Test***");
+		logger.info("***Starting ForgotPasswordLinkTextIsDisplayed Test***");
 		
 		WelcomePage wp = new WelcomePage(driver);
 		wp.clickLagosCheckBox();

@@ -28,6 +28,8 @@ public class TC_008_ForgotPasswordLinkFunctionalityWithInvalidEmail extends Base
 		logger.info("***Enter valid login details***");
 		LoginPage lp = new LoginPage(driver);
 		lp.setEmailOrUsernameField(resourcebundle.getString("email"));
+		//PasswordField intentionally skipped
+		//LoginBtn intentionally not clicked
 		
 		lp.clickForgotPasswordLink();
 		

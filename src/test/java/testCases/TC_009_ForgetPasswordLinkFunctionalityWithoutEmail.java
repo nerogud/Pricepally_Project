@@ -9,12 +9,12 @@ import pageObjects.LoginPage;
 import pageObjects.WelcomePage;
 import testBase.BaseClass;
 
-public class TC_007_ForgotPasswordLinkFunctionality extends BaseClass{
+public class TC_009_ForgetPasswordLinkFunctionalityWithoutEmail extends BaseClass{
 	
 	@Test
-	public void ForgotPasswordLinkFunctionality() throws InterruptedException {
+	public void ForgetPasswordLinkFunctionalityWithoutEmail() throws InterruptedException {
 		
-		logger.info("***Starting ForgotPasswordLinkFunctionality Test***");
+		logger.info("***Starting ForgetPasswordLinkFunctionalityWithoutEmail Test***");
 		
 		WelcomePage wp = new WelcomePage(driver);
 		wp.clickLagosCheckBox();
@@ -30,16 +30,19 @@ public class TC_007_ForgotPasswordLinkFunctionality extends BaseClass{
 		lp.setEmailOrUsernameField(resourcebundle.getString("email"));
 		//PasswordField intentionally skipped
 		//LoginBtn intentionally not clicked
-		
 		lp.clickForgotPasswordLink();
-		
+		//Thread.sleep(3000);
 		
 		ForgetPasswordPage forgotpassword = new ForgetPasswordPage(driver);
+		//emailField intentionally left blank
+		forgotpassword.clickResetLinkBtn();
+		
+		
 		
 		
 		logger.info("***Assert test***");
 		
-		Assert.assertEquals(forgotpassword.getForgotPasswordText(), "Forgot Password"); 
+		Assert.assertEquals(forgotpassword.getForgetPasswordEmailErrorText(), "Field is required"); 
 		
 	}
 	

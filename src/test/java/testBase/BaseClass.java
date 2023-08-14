@@ -24,7 +24,7 @@ import org.testng.annotations.Parameters;
 
 public class BaseClass {
 	
-	public WebDriver driver;
+	public static WebDriver driver;
 	public ChromeOptions ops;
 	public EdgeOptions opts;
 	public ResourceBundle resourcebundle;

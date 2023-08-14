@@ -33,13 +33,13 @@ public class ExtentReportManager implements ITestListener {
 
 		sparkReporter = new ExtentSparkReporter(".\\reports\\" + repName);// specify location of the report
 
-		sparkReporter.config().setDocumentTitle("nopCommerceProject Automation Report"); // Title of report
-		sparkReporter.config().setReportName("nopCommerceProject Functional Testing"); // name of the report
+		sparkReporter.config().setDocumentTitle("Pricepally_Project Automation Report"); // Title of report
+		sparkReporter.config().setReportName("Pricepally_Project Functional Testing"); // name of the report
 		sparkReporter.config().setTheme(Theme.DARK);
 
 		extent = new ExtentReports();
 		extent.attachReporter(sparkReporter);
-		extent.setSystemInfo("Application", "nopCommerceProject");
+		extent.setSystemInfo("Application", "Pricepally_Project");
 		extent.setSystemInfo("Module", "Admin");
 		extent.setSystemInfo("Sub Module", "Customers");
 		extent.setSystemInfo("Operating System", System.getProperty("os.name"));

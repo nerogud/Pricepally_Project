@@ -1,11 +1,18 @@
 package testBase;
 
+import java.io.File;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.time.Duration;
+import java.util.Date;
 import java.util.ResourceBundle;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -60,6 +67,20 @@ public class BaseClass {
 	}
 	public String getRandomNumbers() {
 		return RandomStringUtils.randomNumeric(7);
+	}
+	
+	public String captureScreen(String tname) throws IOException {
+		
+		SimpleDateFormat df = new SimpleDateFormat("yyyyMMddhhmmss");
+		Date dt = new Date();
+		String timestamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+		
+		TakesScreenshot tk = (TakesScreenshot)driver;
+		File src = tk.getScreenshotAs(OutputType.FILE);
+		String destination = System.getProperty("user.dir")+ "\\screenshots\\" + tname + "_" + timestamp + ".png";
+		
+		FileUtils.copyFile(src, new File(destination));
+		return destination;
 	}
 
 

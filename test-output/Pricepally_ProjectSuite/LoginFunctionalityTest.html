@@ -1,0 +1,175 @@
+<html>
+<head>
+<title>TestNG:  LoginFunctionalityTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>LoginFunctionalityTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>19/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Aug 14 09:37:05 BST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>159 seconds (159782 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.TC_002_LoginFunctionalityWithInvalidCredentials.LoginTestWithInvalidCredentials()'><b>LoginTestWithInvalidCredentials</b><br>Test class: testCases.TC_002_LoginFunctionalityWithInvalidCredentials</td>
+<td></td>
+<td>6</td>
+<td>testCases.TC_002_LoginFunctionalityWithInvalidCredentials@6a78afa0</td></tr>
+<tr>
+<td title='testCases.TC_003_LoginFunctionalityWithInvalidEmailAndValidPassword.LoginTestWithInvalidEmailAndValidPassword()'><b>LoginTestWithInvalidEmailAndValidPassword</b><br>Test class: testCases.TC_003_LoginFunctionalityWithInvalidEmailAndValidPassword</td>
+<td></td>
+<td>4</td>
+<td>testCases.TC_003_LoginFunctionalityWithInvalidEmailAndValidPassword@327514f</td></tr>
+<tr>
+<td title='testCases.TC_010_GoogleSignupLinkIsEnabled.VerifyGoogleSignUpBtnIsEnabled()'><b>VerifyGoogleSignUpBtnIsEnabled</b><br>Test class: testCases.TC_010_GoogleSignupLinkIsEnabled</td>
+<td></td>
+<td>6</td>
+<td>testCases.TC_010_GoogleSignupLinkIsEnabled@6150c3ec</td></tr>
+<tr>
+<td title='testCases.TC_015_VerifyWelcomeBackText.VerifyWelcomeBackText()'><b>VerifyWelcomeBackText</b><br>Test class: testCases.TC_015_VerifyWelcomeBackText</td>
+<td></td>
+<td>6</td>
+<td>testCases.TC_015_VerifyWelcomeBackText@5aa9e4eb</td></tr>
+<tr>
+<td title='testCases.TC_008_ForgotPasswordLinkFunctionalityWithInvalidEmail.ForgotPasswordLinkFunctionalityWithInvalidEmail()'><b>ForgotPasswordLinkFunctionalityWithInvalidEmail</b><br>Test class: testCases.TC_008_ForgotPasswordLinkFunctionalityWithInvalidEmail</td>
+<td></td>
+<td>6</td>
+<td>testCases.TC_008_ForgotPasswordLinkFunctionalityWithInvalidEmail@229f66ed</td></tr>
+<tr>
+<td title='testCases.TC_018_VerifyPasswordText.VerifyPasswordText()'><b>VerifyPasswordText</b><br>Test class: testCases.TC_018_VerifyPasswordText</td>
+<td></td>
+<td>6</td>
+<td>testCases.TC_018_VerifyPasswordText@31190526</td></tr>
+<tr>
+<td title='testCases.TC_007_ForgotPasswordLinkFunctionality.ForgotPasswordLinkFunctionality()'><b>ForgotPasswordLinkFunctionality</b><br>Test class: testCases.TC_007_ForgotPasswordLinkFunctionality</td>
+<td></td>
+<td>6</td>
+<td>testCases.TC_007_ForgotPasswordLinkFunctionality@139982de</td></tr>
+<tr>
+<td title='testCases.TC_009_ForgetPasswordLinkFunctionalityWithoutEmail.ForgetPasswordLinkFunctionalityWithoutEmail()'><b>ForgetPasswordLinkFunctionalityWithoutEmail</b><br>Test class: testCases.TC_009_ForgetPasswordLinkFunctionalityWithoutEmail</td>
+<td></td>
+<td>6</td>
+<td>testCases.TC_009_ForgetPasswordLinkFunctionalityWithoutEmail@1f2586d6</td></tr>
+<tr>
+<td title='testCases.TC_014_LoginWithApple.VerifyLoginWithApple()'><b>VerifyLoginWithApple</b><br>Test class: testCases.TC_014_LoginWithApple</td>
+<td></td>
+<td>6</td>
+<td>testCases.TC_014_LoginWithApple@7dcf94f8</td></tr>
+<tr>
+<td title='testCases.TC_017_VerifyPricepallyLogoIsDisplayed.VerifyPricepallyLogoIsDisplayed()'><b>VerifyPricepallyLogoIsDisplayed</b><br>Test class: testCases.TC_017_VerifyPricepallyLogoIsDisplayed</td>
+<td></td>
+<td>6</td>
+<td>testCases.TC_017_VerifyPricepallyLogoIsDisplayed@44c03695</td></tr>
+<tr>
+<td title='testCases.TC_005_LoginFunctionalityWithoutCredentials.LoginFunctionalityWithoutCredentials()'><b>LoginFunctionalityWithoutCredentials</b><br>Test class: testCases.TC_005_LoginFunctionalityWithoutCredentials</td>
+<td></td>
+<td>6</td>
+<td>testCases.TC_005_LoginFunctionalityWithoutCredentials@385c9627</td></tr>
+<tr>
+<td title='testCases.TC_004_LoginFunctionalityWithValidEmailAndInvalidPassword.LoginFunctionalityWithValidEmailAndInvalidPassword()'><b>LoginFunctionalityWithValidEmailAndInvalidPassword</b><br>Test class: testCases.TC_004_LoginFunctionalityWithValidEmailAndInvalidPassword</td>
+<td></td>
+<td>5</td>
+<td>testCases.TC_004_LoginFunctionalityWithValidEmailAndInvalidPassword@10683d9d</td></tr>
+<tr>
+<td title='testCases.TC_016_VerifyEmailText.VerifyEmailText()'><b>VerifyEmailText</b><br>Test class: testCases.TC_016_VerifyEmailText</td>
+<td></td>
+<td>6</td>
+<td>testCases.TC_016_VerifyEmailText@6989da5e</td></tr>
+<tr>
+<td title='testCases.TC_011_FacebookSignupLinkIsEnabled.VerifyFacebookSignUpBtnIsEnabled()'><b>VerifyFacebookSignUpBtnIsEnabled</b><br>Test class: testCases.TC_011_FacebookSignupLinkIsEnabled</td>
+<td></td>
+<td>6</td>
+<td>testCases.TC_011_FacebookSignupLinkIsEnabled@2f4948e4</td></tr>
+<tr>
+<td title='testCases.TC_006_ForgotPasswordLinkTextIsDisplayed.ForgotPasswordLinkTextIsDisplayed()'><b>ForgotPasswordLinkTextIsDisplayed</b><br>Test class: testCases.TC_006_ForgotPasswordLinkTextIsDisplayed</td>
+<td></td>
+<td>6</td>
+<td>testCases.TC_006_ForgotPasswordLinkTextIsDisplayed@3fc2959f</td></tr>
+<tr>
+<td title='testCases.TC_013_LoginWithFacebook.VerifyLoginWithFacebook()'><b>VerifyLoginWithFacebook</b><br>Test class: testCases.TC_013_LoginWithFacebook</td>
+<td></td>
+<td>6</td>
+<td>testCases.TC_013_LoginWithFacebook@682b2fa</td></tr>
+<tr>
+<td title='testCases.TC_012_AppleSignupLinkIsEnabled.VerifyAppleSignupLinkIsEnabled()'><b>VerifyAppleSignupLinkIsEnabled</b><br>Test class: testCases.TC_012_AppleSignupLinkIsEnabled</td>
+<td></td>
+<td>6</td>
+<td>testCases.TC_012_AppleSignupLinkIsEnabled@dd05255</td></tr>
+<tr>
+<td title='testCases.TC_001_LoginFunctionalityWithValidCredentials.LoginTestWithValidCredentials()'><b>LoginTestWithValidCredentials</b><br>Test class: testCases.TC_001_LoginFunctionalityWithValidCredentials</td>
+<td></td>
+<td>7</td>
+<td>testCases.TC_001_LoginFunctionalityWithValidCredentials@7e6f74c</td></tr>
+<tr>
+<td title='testCases.TC_019_VerifySignInToYourAccountText.VerifySignInToYourAccountText()'><b>VerifySignInToYourAccountText</b><br>Test class: testCases.TC_019_VerifySignInToYourAccountText</td>
+<td></td>
+<td>6</td>
+<td>testCases.TC_019_VerifySignInToYourAccountText@217ed35e</td></tr>
+</table><p>
+</body>
+</html>

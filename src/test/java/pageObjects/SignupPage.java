@@ -45,6 +45,18 @@ public class SignupPage extends BasePage{
 	
 	@FindBy(css=".btn-primary.fw-800.w-full.py-2")
 	WebElement createAccountBtn;
+	
+	@FindBy(css="input[name='yes']")
+	WebElement whatsAppNumberYesCheckbox;
+	
+	@FindBy(css="input[name='no']")
+	WebElement whatsAppNumberNoCheckbox;
+	
+	@FindBy(css="input[name='whatsapp_number']")
+	WebElement whatsAppNumberField;
+	
+	@FindBy(css="select[name='whatsapp_numberCountry']")
+	WebElement whatsAppCountryDropdown;
 
 	public void setFirstName(String fName) {
 		firstNameField.sendKeys(fName);
@@ -58,7 +70,7 @@ public class SignupPage extends BasePage{
 	public void setEmail(String email) {
 		emailField.sendKeys(email);
 	}
-	public void selectCountry() {
+	public void selectPhoneCountry() {
 		Select country = new Select(countryDropdown);
 		country.selectByVisibleText("Nigeria");
 	}
@@ -79,6 +91,19 @@ public class SignupPage extends BasePage{
 	}
 	public void clickCreateAccountBtn() {
 		createAccountBtn.click();
+	}
+	public void clickWhatsAppNumberYesCheckbox() {
+		whatsAppNumberYesCheckbox.click();
+	}
+	public void clickWhatsAppNumberNoCheckbox() {
+		whatsAppNumberNoCheckbox.click();
+	}
+	public void setWhatsAppNumberField(String number) {
+		whatsAppNumberField.sendKeys(number);
+	}
+	public void selectWhatsAppCountry() {
+		Select country = new Select(whatsAppCountryDropdown);
+		country.selectByVisibleText("Nigeria");	
 	}
 
 }

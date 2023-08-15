@@ -71,15 +71,19 @@ public class BaseClass {
 	
 	public String captureScreen(String tname) throws IOException {
 		
-		SimpleDateFormat df = new SimpleDateFormat("yyyyMMddhhmmss");
-		Date dt = new Date();
+		
 		String timestamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 		
 		TakesScreenshot tk = (TakesScreenshot)driver;
 		File src = tk.getScreenshotAs(OutputType.FILE);
 		String destination = System.getProperty("user.dir")+ "\\screenshots\\" + tname + "_" + timestamp + ".png";
 		
-		FileUtils.copyFile(src, new File(destination));
+		try {
+			FileUtils.copyFile(src, new File(destination));
+		}
+		catch(Exception e) {
+			e.getMessage();
+		}
 		return destination;
 	}
 

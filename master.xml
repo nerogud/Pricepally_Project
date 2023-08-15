@@ -23,6 +23,7 @@
       <class name="testCases.TC_014_LoginWithApple"/>
       <class name="testCases.TC_008_ForgotPasswordLinkFunctionalityWithInvalidEmail"/>
       <class name="testCases.TC_018_VerifyPasswordText"/>
+      <class name="testCases.TC_020_VerifySuccessfulSignupWithCompleteSpecificUserDetails"/>
     </classes>
   </test> <!-- LoginFunctionalityTest -->
 </suite> <!-- Pricepally_ProjectSuite -->

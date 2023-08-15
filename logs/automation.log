@@ -110,3 +110,21 @@
 09:39:38.378 [main] INFO  testCases.TC_018_VerifyPasswordText - ***Starting VerifyPasswordText Test***
 09:39:44.538 [main] INFO  testCases.TC_018_VerifyPasswordText - *** login details intentionally kept blank***
 09:39:44.538 [main] INFO  testCases.TC_018_VerifyPasswordText - ***Assert test***
+12:20:26.811 [main] INFO  testCases.TC_003_LoginFunctionalityWithInvalidEmailAndValidPassword - ***Starting LoginTestWithInvalidEmailAndValidPassword***
+12:20:27.979 [main] INFO  testCases.TC_003_LoginFunctionalityWithInvalidEmailAndValidPassword - ***Enter login details***
+12:20:31.292 [main] INFO  testCases.TC_003_LoginFunctionalityWithInvalidEmailAndValidPassword - ***Assert test***
+12:38:53.994 [main] INFO  testCases.TC_003_LoginFunctionalityWithInvalidEmailAndValidPassword - ***Starting LoginTestWithInvalidEmailAndValidPassword***
+12:38:55.215 [main] INFO  testCases.TC_003_LoginFunctionalityWithInvalidEmailAndValidPassword - ***Enter login details***
+12:38:58.510 [main] INFO  testCases.TC_003_LoginFunctionalityWithInvalidEmailAndValidPassword - ***Assert test***
+13:51:22.388 [main] INFO  testCases.TC_020_VerifySuccessfulSignupWithCompleteSpecificUserDetails - ***Starting VerifySuccessfulSignupWithCompleteSpecificUserDetails Test***
+14:00:09.496 [main] INFO  testCases.TC_020_VerifySuccessfulSignupWithCompleteSpecificUserDetails - ***Starting VerifySuccessfulSignupWithCompleteSpecificUserDetails Test***
+14:03:48.279 [main] INFO  testCases.TC_020_VerifySuccessfulSignupWithCompleteSpecificUserDetails - ***Starting VerifySuccessfulSignupWithCompleteSpecificUserDetails Test***
+14:03:50.498 [main] INFO  testCases.TC_020_VerifySuccessfulSignupWithCompleteSpecificUserDetails - ***Assert test***
+14:11:56.578 [main] INFO  testCases.TC_020_VerifySuccessfulSignupWithCompleteSpecificUserDetails - ***Starting VerifySuccessfulSignupWithCompleteSpecificUserDetails Test***
+14:11:58.536 [main] INFO  testCases.TC_020_VerifySuccessfulSignupWithCompleteSpecificUserDetails - ***Assert test***
+14:13:01.975 [main] INFO  testCases.TC_020_VerifySuccessfulSignupWithCompleteSpecificUserDetails - ***Starting VerifySuccessfulSignupWithCompleteSpecificUserDetails Test***
+14:13:03.952 [main] INFO  testCases.TC_020_VerifySuccessfulSignupWithCompleteSpecificUserDetails - ***Assert test***
+14:16:38.659 [main] INFO  testCases.TC_020_VerifySuccessfulSignupWithCompleteSpecificUserDetails - ***Starting VerifySuccessfulSignupWithCompleteSpecificUserDetails Test***
+14:16:40.730 [main] INFO  testCases.TC_020_VerifySuccessfulSignupWithCompleteSpecificUserDetails - ***Assert test***
+14:17:59.996 [main] INFO  testCases.TC_020_VerifySuccessfulSignupWithCompleteSpecificUserDetails - ***Starting VerifySuccessfulSignupWithCompleteSpecificUserDetails Test***
+14:18:02.146 [main] INFO  testCases.TC_020_VerifySuccessfulSignupWithCompleteSpecificUserDetails - ***Assert test***

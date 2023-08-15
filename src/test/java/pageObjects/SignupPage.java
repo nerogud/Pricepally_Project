@@ -28,7 +28,8 @@ public class SignupPage extends BasePage{
 	@FindBy(css="select[name='phone_numberCountry']")
 	WebElement countryDropdown;
 	
-	@FindBy(css="#phone")
+	//@FindBy(css="input[name='phone_number']")
+	@FindBy(css="input[value='+234']")
 	WebElement phoneField;
 	
 	//@FindBy(css="#cooperative_id")
@@ -37,7 +38,7 @@ public class SignupPage extends BasePage{
 	@FindBy(css="#referral_code")
 	WebElement referral_codeField;
 	
-	@FindBy(css="label[for='indivaidual']")
+	@FindBy(css="input[name='individual']")
 	WebElement individualAccountCheckBox;
 	
 	@FindBy(css="label[for='bussiness']")
@@ -70,10 +71,14 @@ public class SignupPage extends BasePage{
 	public void setEmail(String email) {
 		emailField.sendKeys(email);
 	}
+	public void setPassword(String password) {
+		passwordField.sendKeys(password);
+	}
 	public void selectPhoneCountry() {
 		Select country = new Select(countryDropdown);
 		country.selectByVisibleText("Nigeria");
 	}
+	
 	public void setPhone(String phone) {
 		phoneField.sendKeys(phone);
 	}

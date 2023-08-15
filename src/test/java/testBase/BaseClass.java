@@ -66,7 +66,7 @@ public class BaseClass {
 		return RandomStringUtils.randomAlphabetic(8);
 	}
 	public String getRandomNumbers() {
-		return RandomStringUtils.randomNumeric(7);
+		return RandomStringUtils.randomNumeric(10);
 	}
 	
 	public String captureScreen(String tname) throws IOException {

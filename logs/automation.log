@@ -128,3 +128,5 @@
 14:16:40.730 [main] INFO  testCases.TC_020_VerifySuccessfulSignupWithCompleteSpecificUserDetails - ***Assert test***
 14:17:59.996 [main] INFO  testCases.TC_020_VerifySuccessfulSignupWithCompleteSpecificUserDetails - ***Starting VerifySuccessfulSignupWithCompleteSpecificUserDetails Test***
 14:18:02.146 [main] INFO  testCases.TC_020_VerifySuccessfulSignupWithCompleteSpecificUserDetails - ***Assert test***
+18:33:55.301 [main] INFO  testCases.TC_021_VerifyFirstNameFieldAcceptsAnyCharacter - ***Starting VerifyFirstNameFieldAcceptsAnyCharacter Test***
+18:33:57.621 [main] INFO  testCases.TC_021_VerifyFirstNameFieldAcceptsAnyCharacter - ***Assert test***

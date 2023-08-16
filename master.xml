@@ -4,7 +4,7 @@
   <test thread-count="5" name="LoginFunctionalityTest">
 	  <parameter name="browser" value="edge"></parameter>
     <classes>
-     <!-- <class name="testCases.TC_003_LoginFunctionalityWithInvalidEmailAndValidPassword"/>
+     <!--<class name="testCases.TC_003_LoginFunctionalityWithInvalidEmailAndValidPassword"/>
       <class name="testCases.TC_010_GoogleSignupLinkIsEnabled"/>
       <class name="testCases.TC_017_VerifyPricepallyLogoIsDisplayed"/>
       <class name="testCases.TC_001_LoginFunctionalityWithValidCredentials"/>

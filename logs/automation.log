@@ -132,3 +132,5 @@
 18:33:57.621 [main] INFO  testCases.TC_021_VerifyFirstNameFieldAcceptsAnyCharacter - ***Assert test***
 16:40:23.908 [main] INFO  testCases.TC_022_VerifyLastNameFieldAcceptsAnyCharacter - ***Starting VerifyLastNameFieldAcceptsAnyCharacter Test***
 16:40:26.154 [main] INFO  testCases.TC_022_VerifyLastNameFieldAcceptsAnyCharacter - ***Assert test***
+17:19:24.126 [main] INFO  testCases.TC_023_VerifyUserNameFieldAcceptsAnyCharacter - ***Starting VerifyUserNameFieldAcceptsAnyCharacter Test***
+17:19:26.419 [main] INFO  testCases.TC_023_VerifyUserNameFieldAcceptsAnyCharacter - ***Assert test***

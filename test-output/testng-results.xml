@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-16T16:40:18 BST" name="Pricepally_ProjectSuite" finished-at="2023-08-16T16:40:27 BST" duration-ms="9228">
+  <suite started-at="2023-08-16T17:19:20 BST" name="Pricepally_ProjectSuite" finished-at="2023-08-16T17:19:28 BST" duration-ms="7342">
     <groups>
     </groups>
-    <test started-at="2023-08-16T16:40:18 BST" name="LoginFunctionalityTest" finished-at="2023-08-16T16:40:27 BST" duration-ms="9228">
-      <class name="testCases.TC_022_VerifyLastNameFieldAcceptsAnyCharacter">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_022_VerifyLastNameFieldAcceptsAnyCharacter@51399530]" started-at="2023-08-16T16:40:18 BST" name="setup" finished-at="2023-08-16T16:40:23 BST" duration-ms="5251" status="PASS">
+    <test started-at="2023-08-16T17:19:20 BST" name="LoginFunctionalityTest" finished-at="2023-08-16T17:19:28 BST" duration-ms="7342">
+      <class name="testCases.TC_023_VerifyUserNameFieldAcceptsAnyCharacter">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_023_VerifyUserNameFieldAcceptsAnyCharacter@51399530]" started-at="2023-08-16T17:19:20 BST" name="setup" finished-at="2023-08-16T17:19:24 BST" duration-ms="3338" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifyLastNameFieldAcceptsAnyCharacter()[pri:0, instance:testCases.TC_022_VerifyLastNameFieldAcceptsAnyCharacter@51399530]" started-at="2023-08-16T16:40:23 BST" name="VerifyLastNameFieldAcceptsAnyCharacter" finished-at="2023-08-16T16:40:27 BST" duration-ms="3528" status="PASS">
+        <test-method signature="VerifyUserNameFieldAcceptsAnyCharacter()[pri:0, instance:testCases.TC_023_VerifyUserNameFieldAcceptsAnyCharacter@51399530]" started-at="2023-08-16T17:19:24 BST" name="VerifyUserNameFieldAcceptsAnyCharacter" finished-at="2023-08-16T17:19:27 BST" duration-ms="3568" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyLastNameFieldAcceptsAnyCharacter -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_022_VerifyLastNameFieldAcceptsAnyCharacter@51399530]" started-at="2023-08-16T16:40:27 BST" name="teardown" finished-at="2023-08-16T16:40:27 BST" duration-ms="407" status="PASS">
+        </test-method> <!-- VerifyUserNameFieldAcceptsAnyCharacter -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_023_VerifyUserNameFieldAcceptsAnyCharacter@51399530]" started-at="2023-08-16T17:19:27 BST" name="teardown" finished-at="2023-08-16T17:19:28 BST" duration-ms="401" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- testCases.TC_022_VerifyLastNameFieldAcceptsAnyCharacter -->
+      </class> <!-- testCases.TC_023_VerifyUserNameFieldAcceptsAnyCharacter -->
     </test> <!-- LoginFunctionalityTest -->
   </suite> <!-- Pricepally_ProjectSuite -->
 </testng-results>

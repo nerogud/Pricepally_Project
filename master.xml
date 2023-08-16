@@ -23,8 +23,9 @@
       <class name="testCases.TC_014_LoginWithApple"/>
       <class name="testCases.TC_008_ForgotPasswordLinkFunctionalityWithInvalidEmail"/>
       <class name="testCases.TC_018_VerifyPasswordText"/>
-      <class name="testCases.TC_020_VerifySuccessfulSignupWithCompleteSpecificUserDetails"/>-->
-      <class name="testCases.TC_021_VerifyFirstNameFieldAcceptsAnyCharacter"/>
+      <class name="testCases.TC_020_VerifySuccessfulSignupWithCompleteSpecificUserDetails"/>
+      <class name="testCases.TC_021_VerifyFirstNameFieldAcceptsAnyCharacter"/>-->
+      <class name="testCases.TC_022_VerifyLastNameFieldAcceptsAnyCharacter"/>
     </classes>
   </test> <!-- LoginFunctionalityTest -->
 </suite> <!-- Pricepally_ProjectSuite -->

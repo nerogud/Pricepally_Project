@@ -58,6 +58,9 @@ public class SignupPage extends BasePage{
 	
 	@FindBy(css="select[name='whatsapp_numberCountry']")
 	WebElement whatsAppCountryDropdown;
+	
+	@FindBy(css=".pl-4.text-xs.text-red-500")
+	WebElement emailErrorText;
 
 	public void setFirstName(String fName) {
 		firstNameField.sendKeys(fName);
@@ -109,6 +112,10 @@ public class SignupPage extends BasePage{
 	public void selectWhatsAppCountry() {
 		Select country = new Select(whatsAppCountryDropdown);
 		country.selectByVisibleText("Nigeria");	
+	}
+	public String getEmailErrorText() {
+		return emailErrorText.getText();
+		
 	}
 
 }

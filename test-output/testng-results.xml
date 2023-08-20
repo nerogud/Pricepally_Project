@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-16T17:19:20 BST" name="Pricepally_ProjectSuite" finished-at="2023-08-16T17:19:28 BST" duration-ms="7342">
+  <suite started-at="2023-08-20T20:32:07 BST" name="Pricepally_ProjectSuite" finished-at="2023-08-20T20:32:13 BST" duration-ms="5799">
     <groups>
     </groups>
-    <test started-at="2023-08-16T17:19:20 BST" name="LoginFunctionalityTest" finished-at="2023-08-16T17:19:28 BST" duration-ms="7342">
-      <class name="testCases.TC_023_VerifyUserNameFieldAcceptsAnyCharacter">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_023_VerifyUserNameFieldAcceptsAnyCharacter@51399530]" started-at="2023-08-16T17:19:20 BST" name="setup" finished-at="2023-08-16T17:19:24 BST" duration-ms="3338" status="PASS">
+    <test started-at="2023-08-20T20:32:07 BST" name="LoginFunctionalityTest" finished-at="2023-08-20T20:32:13 BST" duration-ms="5799">
+      <class name="testCases.TC_024_VerifyUnsuccessfulSignupWithBlankEmail">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_024_VerifyUnsuccessfulSignupWithBlankEmail@51399530]" started-at="2023-08-20T20:32:07 BST" name="setup" finished-at="2023-08-20T20:32:10 BST" duration-ms="3230" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifyUserNameFieldAcceptsAnyCharacter()[pri:0, instance:testCases.TC_023_VerifyUserNameFieldAcceptsAnyCharacter@51399530]" started-at="2023-08-16T17:19:24 BST" name="VerifyUserNameFieldAcceptsAnyCharacter" finished-at="2023-08-16T17:19:27 BST" duration-ms="3568" status="PASS">
+        <test-method signature="VerifyUnsuccessfulSignupWithBlankEmail()[pri:0, instance:testCases.TC_024_VerifyUnsuccessfulSignupWithBlankEmail@51399530]" started-at="2023-08-20T20:32:10 BST" name="VerifyUnsuccessfulSignupWithBlankEmail" finished-at="2023-08-20T20:32:13 BST" duration-ms="2167" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyUserNameFieldAcceptsAnyCharacter -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_023_VerifyUserNameFieldAcceptsAnyCharacter@51399530]" started-at="2023-08-16T17:19:27 BST" name="teardown" finished-at="2023-08-16T17:19:28 BST" duration-ms="401" status="PASS">
+        </test-method> <!-- VerifyUnsuccessfulSignupWithBlankEmail -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_024_VerifyUnsuccessfulSignupWithBlankEmail@51399530]" started-at="2023-08-20T20:32:13 BST" name="teardown" finished-at="2023-08-20T20:32:13 BST" duration-ms="363" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- testCases.TC_023_VerifyUserNameFieldAcceptsAnyCharacter -->
+      </class> <!-- testCases.TC_024_VerifyUnsuccessfulSignupWithBlankEmail -->
     </test> <!-- LoginFunctionalityTest -->
   </suite> <!-- Pricepally_ProjectSuite -->
 </testng-results>

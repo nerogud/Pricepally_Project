@@ -4,13 +4,13 @@
   <test thread-count="5" name="LoginFunctionalityTest(failed)">
     <parameter name="browser" value="edge"/>
     <classes>
-      <class name="testCases.TC_020_VerifySuccessfulSignupWithCompleteSpecificUserDetails">
+      <class name="testCases.TC_024_VerifyUnsuccessfulSignupWithInvalidEmail">
         <methods>
           <include name="teardown"/>
-          <include name="VerifySuccessfulSignupWithCompleteSpecificUserDetails"/>
           <include name="setup"/>
+          <include name="VerifyUnsuccessfulSignupWithInvalidEmail"/>
         </methods>
-      </class> <!-- testCases.TC_020_VerifySuccessfulSignupWithCompleteSpecificUserDetails -->
+      </class> <!-- testCases.TC_024_VerifyUnsuccessfulSignupWithInvalidEmail -->
     </classes>
   </test> <!-- LoginFunctionalityTest(failed) -->
 </suite> <!-- Failed suite [Pricepally_ProjectSuite] -->

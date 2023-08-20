@@ -134,3 +134,7 @@
 16:40:26.154 [main] INFO  testCases.TC_022_VerifyLastNameFieldAcceptsAnyCharacter - ***Assert test***
 17:19:24.126 [main] INFO  testCases.TC_023_VerifyUserNameFieldAcceptsAnyCharacter - ***Starting VerifyUserNameFieldAcceptsAnyCharacter Test***
 17:19:26.419 [main] INFO  testCases.TC_023_VerifyUserNameFieldAcceptsAnyCharacter - ***Assert test***
+20:25:17.238 [main] INFO  testCases.TC_024_VerifyUnsuccessfulSignupWithInvalidEmail - ***Starting VerifyUnsuccessfulSignupWithInvalidEmail Test***
+20:25:19.559 [main] INFO  testCases.TC_024_VerifyUnsuccessfulSignupWithInvalidEmail - ***Assert test***
+20:32:10.916 [main] INFO  testCases.TC_024_VerifyUnsuccessfulSignupWithBlankEmail - ***Starting VerifyUnsuccessfulSignupWithBlankEmail Test***
+20:32:13.024 [main] INFO  testCases.TC_024_VerifyUnsuccessfulSignupWithBlankEmail - ***Assert test***
